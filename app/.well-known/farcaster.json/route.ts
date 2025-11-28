@@ -18,7 +18,7 @@ export async function GET() {
         "miniapp": {
             "version": "1",
             "name": "Anime Runner",
-            "homeUrl": "https://nasbasegame.vercel.app",
+            "homeUrl": "https://anime-runner.vercel.app/",
             "iconUrl": "https://nasbasegame.vercel.app/icon.png",
             "imageUrl": "https://nasbasegame.vercel.app/icon.png",
             "splashImageUrl": "https://nasbasegame.vercel.app/icon.png",

@@ -172,7 +172,7 @@ export default function AnimeRunner() {
     <>
       <Head>
         <title>Anime Runner</title>
-        <link rel="icon" href="/icon.png" type="image/png" />
+        <link rel="icon" href="/icon.png" />
       </Head>
 
       <div className="game-container">

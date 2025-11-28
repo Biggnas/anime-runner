@@ -29,7 +29,7 @@ export const metadata: Metadata = {
         action: {
           type: "launch_miniapp",
           name: "Anime Runner",
-          url: "https://nasbasegame.vercel.app",
+          url: "https://anime-runner.vercel.app/",
         },
       },
     }),
