@@ -2,6 +2,7 @@
 
 import { useEffect, useRef, useState } from 'react';
 import Head from 'next/head';
+import { sdk } from '@farcaster/miniapp-sdk';
 
 export default function AnimeRunner() {
   const [gameRunning, setGameRunning] = useState(false);
@@ -10,6 +11,7 @@ export default function AnimeRunner() {
   const [showStartOverlay, setShowStartOverlay] = useState(true);
   const [showGameOverOverlay, setShowGameOverOverlay] = useState(false);
   const [finalScore, setFinalScore] = useState(0);
+  const [isSDKLoaded, setIsSDKLoaded] = useState(false);
 
   const stageRef = useRef<HTMLDivElement>(null);
   const runnerRef = useRef<HTMLDivElement>(null);
@@ -172,7 +174,7 @@ export default function AnimeRunner() {
     <>
       <Head>
         <title>Anime Runner</title>
-        <link rel="icon" href="/icon.png" />
+        <link rel="icon" href="/icon.png" type="image/png" />
       </Head>
 
       <div className="game-container">

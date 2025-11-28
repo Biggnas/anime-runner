@@ -19,9 +19,9 @@ export async function GET() {
             "version": "1",
             "name": "Anime Runner",
             "homeUrl": "https://anime-runner.vercel.app/",
-            "iconUrl": "/icon.png",
-            "imageUrl": "/icon.png",
-            "splashImageUrl": "/icon.png",
+            "iconUrl": "https://nasbasegame.vercel.app/icon.png",
+            "imageUrl": "https://nasbasegame.vercel.app/icon.png",
+            "splashImageUrl": "https://nasbasegame.vercel.app/icon.png",
             "splashBackgroundColor": "#0d1117",
             "subtitle": "Fast, fun endless runner",
             "description": "A fast-paced endless runner game where you jump over obstacles to achieve the highest score.",
@@ -34,7 +34,7 @@ export async function GET() {
             "tagline": "Jump to survive!",
             "ogTitle": "Anime Runner - Base Miniapp",
             "ogDescription": "Play the addictive Anime Runner game directly in your Farcaster client.",
-            "ogImageUrl": "/icon.png",
+            "ogImageUrl": "https://nasbasegame.vercel.app/icon.png",
             "requiredCapabilities": [
                 "actions.ready"
             ]
