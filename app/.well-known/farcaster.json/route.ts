@@ -9,8 +9,8 @@ export async function GET() {
     return Response.json({
         "accountAssociation": {
             "header": "eyJmaWQiOjExMDQ3MzEsInR5cGUiOiJhdXRoIiwia2V5IjoiMHg4OTUxOURkODE2N2E4ZGM1Q2M1NmUxNjQ5MTEwNEY0MjUxMzBiZDRhIn0",
-            "payload": "eyJkb21haW4iOiJuYXNiYXNlZ2FtZS52ZXJjZWwuYXBwIn0",
-            "signature": "ShsuLp5j5VU698aBaGxCVLPjxJ0+5t6w16mpFvZwaUgi7P8QpJiTMV7FwVohnBcgQggVX1cw+zsZU9dmBkrDhxw="
+            "payload": "eyJkb21haW4iOiJhbmltZS1ydW5uZXIudmVyY2VsLmFwcCJ9",
+            "signature": "AuvtGZwOcWupZXpaY/rzogQ1VQJaN6eS9DKh5W71995YJfLjbZSnGhaGyRSUsv4F5PFQuvzFovDFzikYo5+gsBw="
         },
         "baseBuilder": {
             "ownerAddress": "0x21210dfB6B17AF5B46EeB0b9Ca25672B361A8B5f"
