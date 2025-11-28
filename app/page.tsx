@@ -11,7 +11,6 @@ export default function AnimeRunner() {
   const [showStartOverlay, setShowStartOverlay] = useState(true);
   const [showGameOverOverlay, setShowGameOverOverlay] = useState(false);
   const [finalScore, setFinalScore] = useState(0);
-  const [isSDKLoaded, setIsSDKLoaded] = useState(false);
 
   const stageRef = useRef<HTMLDivElement>(null);
   const runnerRef = useRef<HTMLDivElement>(null);
@@ -170,6 +169,11 @@ export default function AnimeRunner() {
     return () => document.removeEventListener('keydown', handleKeyDown);
   }, [gameRunning]);
 
+
+  useEffect(() => {
+    sdk.actions.ready();
+  }, []);
+  
   return (
     <>
       <Head>
