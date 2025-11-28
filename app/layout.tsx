@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     "fc:channel": "base",
     "fc:miniapp": JSON.stringify({
       version: "1",
-      imageUrl: "https://nasbasegame.vercel.app/icon.png",
+      imageUrl: "/icon.png",
       button: {
         title: "Play Now",
         action: {
